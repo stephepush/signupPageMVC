@@ -6,4 +6,6 @@ const app = express();
 
 //const db = require('./models/database')
 
+app.set('view engine', 'ejs');
+
 app.listen(3002);
