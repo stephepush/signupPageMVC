@@ -1,7 +1,8 @@
 exports.getLogin = (req, res, next) => {
-    res.render('auth/landing', {
-        path: '/',
+    res.render('auth/login', {
+        path: '/login',
         pageTitle: 'Welcome! Login or Sign Up!'
+
     })
 }
 
